@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yield!</title>
+    <link rel="stylesheet" href="../static/styles.css" />
+  </head>
+  <body>
+    <h1>Yield</h1>
+    <h3>{{prediction}}</h3>
+    <h3>{{error_message}}</h3>
+    <form action="./predict", method="post">
+      <div class="container">
+        <input
+          type="text"
+          name="Rainfall"
+          class="input_long"
+          id="rainfall"
+          placeholder="Rainfall"
+        />
+        <input
+          type="text"
+          name="Nitrogen"
+          id="nitrogen"
+          class="input_short"
+          placeholder="N"
+        />
+        <input
+          type="text"
+          name="Humidity"
+          class="input_long"
+          id="humidity"
+          placeholder="Humidity"
+        />
+        <input
+          type="text"
+          name="Phosphorus"
+          id="phosphorus"
+          class="input_short"
+          placeholder="P"
+        />
+        <input
+          type="text"
+          name="Temperature"
+          class="input_long"
+          id="temperature"
+          placeholder="Temperature"
+        />
+        <input
+          type="text"
+          name="Potassium"
+          id="potassium"
+          class="input_short"
+          placeholder="K"
+        />
+        <input
+          type="text"
+          name="pH"
+          class="input_short"
+          id="pH"
+          placeholder="pH"
+        />
+        <button
+          type="submit"
+          name="submit"
+          id="predict"
+          class="input_long"
+          value="Predict">Predict</button>
+      </div>
+    </form>
+
+    <h4>N - Nitrogen</h4>
+    <h4>P - Phosphorus</h4>
+    <h4>K - Potassium</h4>
+
+    <!-- <p>bams was here!</p> -->
+  </body>
+</html>

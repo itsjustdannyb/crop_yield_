@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  /* border: 2px #000 solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  flex-wrap: wrap;
+}
+
+#input_long {
+  width: 45%;
+}
+
+#input_short {
+  width: 25%;
+}
+
+input {
+  height: 35px;
+  border: 2px #000 solid;
+  padding: 5px;
+  border-radius: 12px;
+  margin: 2.5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
